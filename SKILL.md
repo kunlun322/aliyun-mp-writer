@@ -1,5 +1,6 @@
 ---
 name: aliyun-mp-writer
+version: 1.0.0
 description: 将内容素材整理输出为适合在阿里云官方微信公众号发布的文章。支持 Word(.docx)、PDF(.pdf)、Markdown(.md)、纯文本及在线链接等素材形式。Use when the user asks to write, draft, or format articles for 阿里云微信公众号, 阿里云官微, AliWeChat, or when providing content素材 (documents or links) to be transformed into 阿里云-style WeChat official account articles.
 ---
 

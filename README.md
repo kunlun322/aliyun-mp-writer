@@ -1,12 +1,12 @@
 # aliyun-mp-writer
 
-> 阿里云官方微信公众号文章写作 Skill for QoderWork
+> 阿里云官方微信公众号文章写作 Skill
 
 将技术素材、产品文档、新闻稿等内容转化为符合阿里云官方微信公众号风格的专业文章。
 
 ## 简介
 
-`aliyun-mp-writer` 是一个专为 [QoderWork](https://docs.qoder.com/qoderwork/introduction) 设计的 AI 写作 Skill，能够自动将各类素材（Word 文档、PDF、Markdown、在线链接或纯文本）整理并输出为符合阿里云官方微信公众号风格的原创文章。
+`aliyun-mp-writer` 是一个 AI 写作 Skill，适用于支持该 Skill 规范的多种智能体平台（包括 [Openclaw](https://github.com/openclaw)、[Copaw](https://github.com/copaw)、[QoderWork](https://docs.qoder.com/qoderwork/introduction) 等），能够自动将各类素材（Word 文档、PDF、Markdown、在线链接或纯文本）整理并输出为符合阿里云官方微信公众号风格的原创文章。
 
 该 Skill 深度提炼了阿里云官微文章的写作风格特征，包括：
 
@@ -28,18 +28,18 @@
 
 ### 前置要求
 
-- [QoderWork](https://docs.qoder.com/qoderwork/introduction) 桌面应用
-- QoderWork 内置的 `docx`、`pdf` Skill（用于读取输入素材）
+- 支持 Skill 规范的智能体应用（如 Openclaw、Copaw、QoderWork 等）
+- 智能体内置的 `docx`、`pdf` Skill（用于读取输入素材）
 
 ### 安装步骤
 
 1. 下载或克隆本仓库到本地：
    ```bash
-   git clone https://github.com/<your-username>/aliyun-mp-writer.git
+   git clone https://github.com/kunlun322/aliyun-mp-writer.git
    ```
 
-2. 在 QoderWork 中安装该 Skill：
-   - 打开 QoderWork 应用
+2. 在你的智能体应用中安装该 Skill：
+   - 打开对应的智能体应用
    - 进入 Skills 管理界面
    - 选择「Install Skill」或「添加 Skill」
    - 指向本仓库的目录路径
@@ -50,7 +50,7 @@
 
 ### 基本用法
 
-在 QoderWork 对话中直接输入指令，例如：
+在智能体对话中直接输入指令，例如：
 
 ```
 帮我把这份产品文档写成阿里云微信公众号文章
@@ -160,7 +160,4 @@ aliyun-mp-writer/
 
 本项目采用 MIT License 开源。详见 [LICENSE](LICENSE) 文件。
 
-## 相关链接
 
-- [QoderWork 官方文档](https://docs.qoder.com/qoderwork/introduction)
-- [QoderWork Skills 介绍](https://docs.qoder.com/qoderwork/skills)
